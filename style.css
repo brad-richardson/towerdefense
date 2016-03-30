@@ -1,0 +1,63 @@
+body {
+    background-color: #999999;
+}
+
+
+#primary-div {
+    width: 800px;
+}
+
+#overlay-div {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#score-div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-size: 20px;
+}
+
+#countdown-div {
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    top: 200px;
+    color: white;
+    font-size: 300px;
+    text-align: center;
+}
+
+#mainmenu-div, #highscores-div, #credits-div, #pause-div {
+    background-color: #999999;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 200px;
+    left: 200px;
+    text-align: center;
+    z-index: 0;
+    display: none;
+}
+
+#mainmenu-div {
+    display: inline-block;
+    z-index: 10;
+}
+
+button {
+    background: none;
+    color: blue;
+    font-size: 50px;
+}
+
+.button-selected {
+    background-color: blue;
+    color: #999999;
+}
