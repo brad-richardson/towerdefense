@@ -2,14 +2,14 @@
  * Created by brad on 2/29/16.
  */
 
-var Breakout = {};
+var TowerDefense = {};
 
 // ------------------------------------------------------------------
 //
 // This is the input handler used to distribute inputs to the game objects
 // From in class demo
 // ------------------------------------------------------------------
-Breakout.Input = (function() {
+TowerDefense.Input = (function() {
     'use strict';
 
     function Keyboard() {

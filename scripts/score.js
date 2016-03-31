@@ -1,5 +1,5 @@
 
-Breakout.Score = (function() {
+TowerDefense.Score = (function() {
 
     var score = 0,
         hitBricks = [],

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Assignment 3</title>
-    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link href="style/style.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 <div id="content">
@@ -11,49 +11,20 @@
     <div id="primary-div">
 
         <div id="canvas-div">
-            <canvas id="canvas-main" width="800px" height="800px"></canvas>
-        </div>
-
-        <div id="overlay-div">
-            <div id="mainmenu-div">
-                <br/><br/>
-                <button id="play" class="button-selected">Play Game</button>
-                <br/><br/>
-                <button id="highscores">High Scores</button>
-                <br/><br/>
-                <button id="credits">Credits</button>
-            </div>
-
-            <div id="highscores-div">
-                <h1 id="highscores-body"></h1>
-                <button id="reset">Reset</button>
-            </div>
-
-            <div id="credits-div">
-                <h1>Created by<br>Brad Richardson</h1>
-            </div>
-
-            <div id="pause-div">
-                <br/><br/>
-                <button id="resume" class="button-selected">Resume</button>
-                <br/><br/>
-                <button id="quit">Quit</button>
-            </div>
-
-            <div id="score-div"></div>
-
-            <div id="countdown-div"></div>
+            <canvas id="canvas-main" width="800px" height="450px"></canvas>
         </div>
 
     </div>
 
 </div>
 
-<script src="random.js"></script>
-<script src="input.js"></script>
-<script src="particles.js"></script>
-<script src="graphics.js"></script>
-<script src="score.js"></script>
-<script src="gameloop.js"></script>
+<script src="scripts/random.js"></script>
+<script src="scripts/input.js"></script>
+<script src="scripts/particles.js"></script>
+<script src="scripts/graphics.js"></script>
+<script src="scripts/score.js"></script>
+<script src="scripts/grid.js"></script>
+<script src="scripts/tower.js"></script>
+<script src="scripts/gameloop.js"></script>
 </body>
 </html>

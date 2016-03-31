@@ -1,5 +1,5 @@
 
-Breakout.Particles = function(spec) {
+TowerDefense.Particles = function(spec) {
     'use strict';
     var that = {},
         nextName = 1,	// unique identifier for the next particle
